@@ -1,0 +1,18 @@
+export M2_HOME=/opt/maven/apache-maven-3.8.7
+export PATH=${M2_HOME}/bin:${PATH}
+
+
+
+
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.342.b07-1.amzn2.0.1.x86_64/jre"
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+
+<role rolename="manager-gui"/>
+<user username="tomcat" password="s3cret" roles="manager-gui"/>
+
+
+
+
+<role rolename="manager-gui"/>
+<user username="tomcat" password="s3cret" roles="manager-gui"/>

@@ -19,5 +19,8 @@ mkdir -p $HOME/.kube
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
 
 
+new 
+kubeadm join 10.5.0.129:6443 --token 4r5er1.04sigqczypf541ph \
+    --discovery-token-ca-cert-hash sha256:e90160621a7b1e4d261017d5f8be213e19e44f80981610373d3b1fde8ef7210a
 
 
